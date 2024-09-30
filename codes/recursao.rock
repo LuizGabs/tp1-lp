@@ -1,0 +1,28 @@
+NumPares takes numero
+    If numero is as low as 0
+        Shout 0
+        Give back 0
+    Else
+        If IsPar taking numero is as high as 1
+            Shout numero
+            Put numero minus 1 into my numero
+            NumPares taking my numero
+        Else
+            Put numero minus 1 into my numero
+            NumPares taking my numero
+
+IsPar takes my number
+    While my number is higher than 1
+        Put my number minus 2 into my number
+
+    If my number is 0
+        Give back 1
+
+    Else
+        Give back 0
+
+my frase is "Insira um número: "
+Shout my frase
+Listen to my inserted
+NumPares taking my inserted
+

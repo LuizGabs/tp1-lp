@@ -1,0 +1,12 @@
+my frase is "Insira um número: "
+Shout my frase
+Listen to numero
+
+While numero is higher than 1
+    Put numero minus 2 into numero
+
+If numero is 0
+    Shout "Número é par"
+
+Else
+    Shout "Número é impar"
